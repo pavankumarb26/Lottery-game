@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: #333;
+    background-color: antiquewhite;
+    position:sticky;
+    top: 0;
+    margin-top: 0;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.sheet-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    width:180px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;    
+    background-color: aqua;
+    margin: 5px;
+}
+#pickanumber{
+    font-size: 20px;
+    font-weight: bold;
+}
+ #result{
+    font-size: 30px;
+ }
+.resultbox{
+    background-color:green;
+    color: white;               
+ }
+ .borderbox{
+    border :5px solid red;
+    border-radius: 10px;
+    border
+ }
